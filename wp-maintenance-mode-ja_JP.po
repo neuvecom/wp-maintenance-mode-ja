@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: WP Maintenance Mode 2.0.8\n"
 "POT-Creation-Date: 2016-07-06 14:07+0300\n"
-"PO-Revision-Date: 2016-09-28 21:33+0900\n"
+"PO-Revision-Date: 2016-09-28 22:25+0900\n"
 "Last-Translator: neuve project <neuvecom@gmail.com>\n"
 "Language-Team: neuve project <neuvecom@gmail.com>\n"
 "Language: ja_JP\n"
@@ -64,6 +64,9 @@ msgid ""
 "The Maintenance Mode is <strong>active</strong>. Please don't forget to <a "
 "href=\"%s\">deactivate</a> as soon as you are done."
 msgstr ""
+"現在メンテナンスモードが<strong>有効</strong>になっています。メンテナンス"
+"モードを無効にするには <a href=\"%s\">こちら</a> から設定を変更してくださ"
+"い。"
 
 #: includes/classes/wp-maintenance-mode-admin.php:494
 msgid "Notice key cannot be empty."
@@ -75,6 +78,9 @@ msgid ""
 "If you like <strong>WP Maintenance Mode</strong> please leave us a %s "
 "rating. A huge thank you from WP Maintenance Mode makers in advance!"
 msgstr ""
+"もし<strong>WP Maintenance Mode</strong>を気に入っていただけたなら、"
+"<strong>WP WebinarSystem</strong>に、評価 %s をいただければ幸いです。ご協力"
+"に感謝します！"
 
 #: includes/classes/wp-maintenance-mode.php:101
 #: includes/classes/wp-maintenance-mode.php:102
@@ -86,6 +92,8 @@ msgid ""
 "<p>Sorry for the inconvenience.<br />Our website is currently undergoing "
 "scheduled maintenance.<br />Thank you for your understanding.</p>"
 msgstr ""
+"<p>ご迷惑をおかけして申し訳ございません。<br>このウェブサイトは定期メンテナ"
+"ンス中です。<br>またのお越しをお待ちしております。</p>"
 
 #: includes/classes/wp-maintenance-mode.php:122
 msgid "Notify me when it's ready"
@@ -97,6 +105,8 @@ msgid ""
 "WP Maintenance Mode plugin was relaunched and you MUST revise <a href=\"%s"
 "\">settings</a>."
 msgstr ""
+"WP Maintenance Modeプラグインはリニューアルされたため、<a href=\"%s\">設定を"
+"変更する</a>必要があります"
 
 #: includes/classes/wp-maintenance-mode.php:461
 #: includes/classes/wp-maintenance-mode.php:475
@@ -118,16 +128,17 @@ msgstr "すべての項目が入力必須です"
 
 #: includes/classes/wp-maintenance-mode.php:763
 msgid "Message via contact"
-msgstr ""
+msgstr "問い合わせメッセージ"
 
 #: includes/classes/wp-maintenance-mode.php:775
 msgid "Your email was sent to the website administrator. Thanks!"
 msgstr ""
+"問合せメッセージはウェブサイト管理者へ送信されました。ありがとうございます。"
 
 #: views/contact.php:34
 #, php-format
 msgid "You have been contacted via %s."
-msgstr ""
+msgstr "%s様からのメールを受け付けました。"
 
 #: views/contact.php:50
 msgid "Name:"
@@ -227,35 +238,35 @@ msgstr "いいえ"
 
 #: views/settings.php:37
 msgid "Allow Search Bots to bypass maintenance mode?"
-msgstr ""
+msgstr "メンテナンスモード中でも検索ボットを許可しますか？"
 
 #: views/settings.php:41
 msgid "Backend Role"
-msgstr ""
+msgstr "バックエンドの役割"
 
 #: views/settings.php:43 views/settings.php:59
 msgid "Select role(s)"
-msgstr ""
+msgstr "権限を選択"
 
 #: views/settings.php:53
 msgid ""
 "Which user role is allowed to access the backend of this blog? "
 "Administrators will always have access."
-msgstr ""
+msgstr "どのユーザー権限に、このブログへのアクセスを許可しますか？"
 
 #: views/settings.php:57
 msgid "Frontend Role"
-msgstr ""
+msgstr "フロントエンドの役割"
 
 #: views/settings.php:69
 msgid ""
 "Which user role is allowed to access the frontend of this blog? "
 "Administrators will always have access."
-msgstr ""
+msgstr "どのユーザー権限に、このブログへのアクセスを許可しますか？"
 
 #: views/settings.php:73
 msgid "Robots Meta Tag"
-msgstr ""
+msgstr "ロボットのメタタグ"
 
 #: views/settings.php:79
 msgid ""
@@ -263,10 +274,13 @@ msgid ""
 "control how an individual page should be indexed and served to users in "
 "search results."
 msgstr ""
+"ロボットのメタタグを使用すると、個々のページがインデックスや検索結果に表示さ"
+"れ、ユーザに提供する方法を制御するために、ページ固有のきめ細かなアプローチを"
+"使用することができます。"
 
 #: views/settings.php:83
 msgid "Redirection"
-msgstr ""
+msgstr "リダイレクト"
 
 #: views/settings.php:86
 msgid ""
@@ -274,33 +288,38 @@ msgid ""
 "URL (different from WordPress Dashboard URL) after login, then define a URL "
 "(incl. http://)"
 msgstr ""
+"Wordpress管理用ページへのログイン後、ユーザーを違うURLへリダイレクトさせる場"
+"合は（WordPressのダッシュボードへ推移しません）、 そのURLを定義（http:// を"
+"含めて記述してください）"
 
 #: views/settings.php:90
 msgid "Exclude"
-msgstr ""
+msgstr "除外"
 
 #: views/settings.php:97
 msgid ""
 "Exclude feed, pages, archives or IPs from maintenance mode. Add one slug / "
 "IP per line!"
 msgstr ""
+"メンテナンスモード有効時に、フィード、ページ、アーカイブまたはIPアドレスを除"
+"外します。スラッグかIPアドレスを1行あたり1つずつ記述してください。"
 
 #: views/settings.php:101
 msgid "Notice"
-msgstr ""
+msgstr "通知"
 
 #: views/settings.php:107
 msgid "Do you want to see notices when maintenance mode is activated?"
-msgstr ""
+msgstr "メンテナンスモード表示時、お知らせの注意文を表示しますか？"
 
 #: views/settings.php:111
 msgid "Dashboard link"
-msgstr ""
+msgstr "ダッシュボードへのリンク"
 
 #: views/settings.php:117
 msgid ""
 "Do you want to add a link to the dashboard on your maintenance mode page?"
-msgstr ""
+msgstr "メンテナンスモード表示時、ダッシュボードへのリンクを追加しますか？"
 
 #: views/settings.php:125 views/settings.php:228 views/settings.php:433
 msgid "Save settings"
@@ -365,7 +384,7 @@ msgstr "背景を選択します。"
 #: views/settings.php:201
 #, php-format
 msgid "source <a href=\"%s\" target=\"_blank\">Free Photos</a>"
-msgstr ""
+msgstr "提供元: <a href=\"%s\" target=\"_blank\">Free Photos</a>"
 
 #: views/settings.php:234
 msgid "Countdown"
